@@ -1,4 +1,4 @@
-# Dialogflow CX Discord integration
+# Dialogflow CX Discord integration (Work in progress)
 
 This repository serves as an example of integrating Dialogflow CX bot into Discord DMs
 
