@@ -1,0 +1,36 @@
+{
+  "name": "monitoring",
+  "scripts": {
+    "lint2": "eslint --ext .js,.ts .",
+    "lint": "",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "npm run build && npm run start",
+    "start": "node ./dist/index.js",
+    "gcp-build": "tsc",
+    "deploy": "gcloud app deploy --project yadada-crypto"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "@discordjs/rest": "0.1.0-canary.0",
+    "@types/node": "^16.3.2",
+    "discord.js": "^13.1.0",
+    "node": "16.6.1",
+    "node-fetch": "^2.6.1",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.11",
+    "@typescript-eslint/eslint-plugin": "^3.9.1",
+    "@typescript-eslint/parser": "^3.8.0",
+    "eslint": "^7.29.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "typescript": "^4.1.3"
+  },
+  "private": true
+}

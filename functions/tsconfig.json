@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2018",
+    "resolveJsonModule": true,
+    "lib": ["ES2018", "DOM"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+  },
+  "compileOnSave": true,
+  "include": ["src"]
+}
